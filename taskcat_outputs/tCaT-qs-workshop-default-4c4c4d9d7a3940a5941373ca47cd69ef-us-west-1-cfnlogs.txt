@@ -1,0 +1,19 @@
+-----------------------------------------------------------------------------
+Region: us-west-1
+StackName: tCaT-qs-workshop-default-4c4c4d9d7a3940a5941373ca47cd69ef
+*****************************************************************************
+ResourceStatusReason:  
+Parameter validation failed: parameter value qsworkshop for parameter name
+KeyPairName does not exist
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                          ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------  -----------------------------------------------------------------------------------------------------
+2021-04-09 21:01:06.859000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-qs-workshop-default-4c4c4d9d7a3940a5941373ca47cd69ef  Parameter validation failed: parameter value qsworkshop for parameter name KeyPairName does not exist
+2021-04-09 21:01:03.917000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-qs-workshop-default-4c4c4d9d7a3940a5941373ca47cd69ef  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Friday, 09. April 2021 09:02PM
+-----------------------------------------------------------------------------
+
