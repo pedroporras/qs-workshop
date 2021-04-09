@@ -8,8 +8,9 @@ project:
 tests:
   default:
     template: ./templates/master.template.yaml
+    s3_bucket: taskcat-cicd
     regions:
-    - us-west-1
+    - us-west-2
     parameters:
       AvailabilityZones: "$[taskcat_getaz_2]"
       EmailAddress: email@yourdomain.com
@@ -17,5 +18,5 @@ tests:
       WebserverCIDR: "0.0.0.0/0"
       QSS3KeyPrefix: "qs-workshop/"
       QSS3BucketRegion: "$[taskcat_current_region]"
-      QSS3BucketName: "$[taskcat_autobucket]"
+      QSS3BucketName: "taskcat-cicd"
 
