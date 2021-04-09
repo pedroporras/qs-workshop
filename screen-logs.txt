@@ -294,3 +294,62 @@ Not in terminal, reprint now using normal build-in print function.
          ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-WorkloadStack-1VHJTQ3459D2E
          ┣ region: us-west-2
          ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-VPCStack-M5VB5R02IU07
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-WorkloadStack-1VHJTQ3459D2E
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-VPCStack-M5VB5R02IU07
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-WorkloadStack-1VHJTQ3459D2E
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-VPCStack-M5VB5R02IU07
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-WorkloadStack-1VHJTQ3459D2E
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-VPCStack-M5VB5R02IU07
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-WorkloadStack-1VHJTQ3459D2E
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-VPCStack-M5VB5R02IU07
+         ┣ stack Ⓝ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde-WorkloadStack-1VHJTQ3459D2E
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-67ccef1c45ee4f53ae4ea1113e6facde
+[ERROR  ] : ClientError An error occurred (ExpiredToken) when calling the DescribeStacks operation: The security token included in the request is expired
+Exception in thread Thread-2420:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.7/threading.py", line 1177, in run
+    self.function(*self.args, **self.kwargs)
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/taskcat/_cfn/stack.py", line 425, in refresh
+    self.set_stack_properties()
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/taskcat/_cfn/stack.py", line 442, in set_stack_properties
+    props = describe_stacks(StackName=self.id)["Stacks"][0]
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/botocore/client.py", line 676, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (ExpiredToken) when calling the DescribeStacks operation: The security token included in the request is expired
+
+Exception in thread Thread-2467:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.7/threading.py", line 1177, in run
+    self.function(*self.args, **self.kwargs)
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/taskcat/_cfn/stack.py", line 425, in refresh
+    self.set_stack_properties()
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/taskcat/_cfn/stack.py", line 442, in set_stack_properties
+    props = describe_stacks(StackName=self.id)["Stacks"][0]
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/botocore/client.py", line 676, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (ExpiredToken) when calling the DescribeStacks operation: The security token included in the request is expired
+
