@@ -1,0 +1,319 @@
+ _            _             _   
+| |_ __ _ ___| | _____ __ _| |_ 
+| __/ _` / __| |/ / __/ _` | __|
+| || (_| \__ \   < (_| (_| | |_ 
+ \__\__,_|___/_|\_\___\__,_|\__|
+                                
+
+
+version 0.9.23
+Not in terminal, reprint now using normal build-in print function.
+
+[WARN   ] : ---
+[WARN   ] : Linting detected issues in: /home/ec2-user/environment/qs-workshop/submodules/quickstart-aws-vpc/templates/aws-vpc.template
+[WARN   ] :     line 172 [2001] [Check if Parameters are Used] Parameter KeyPairName not used.
+[WARN   ] :     line 177 [2001] [Check if Parameters are Used] Parameter NATInstanceType not used.
+[WARN   ] :     line 420 [8001] [Check if Conditions are Used] Condition GovCloudCondition not used
+[WARN   ] : ---
+[WARN   ] : Linting detected issues in: /home/ec2-user/environment/qs-workshop/templates/master.template.yaml
+[WARN   ] :     line 96 [8001] [Check if Conditions are Used] Condition UsingDefaultBucket not used
+[WARN   ] :     line 119 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/PrivateSub
+                                                                             net1ID/Fn::GetAtt
+[WARN   ] :     line 119 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/PrivateSub
+                                                                             net2ID/Fn::GetAtt
+[WARN   ] :     line 119 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/PublicSubn
+                                                                             et1ID/Fn::GetAtt
+[WARN   ] :     line 119 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/PublicSubn
+                                                                             et2ID/Fn::GetAtt
+[WARN   ] :     line 119 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/VPCID/Fn::
+                                                                             GetAtt
+[WARN   ] :     line 119 [3005] [Check obsolete DependsOn configuration for Resources] Obsolete DependsOn on resource (VPCStack),
+                                                                             dependency already enforced by a "Fn:GetAtt" at Reso
+                                                                             urces/WorkloadStack/Properties/Parameters/VPCCIDR/Fn
+                                                                             ::GetAtt
+[WARN   ] : ---
+[WARN   ] : Linting detected issues in: /home/ec2-user/environment/qs-workshop/templates/workload.template.yaml
+[WARN   ] :     line 71 [2001] [Check if Parameters are Used] Parameter PrivateSubnet1ID not used.
+[WARN   ] :     line 74 [2001] [Check if Parameters are Used] Parameter PrivateSubnet2ID not used.
+[WARN   ] :     line 86 [2001] [Check if Parameters are Used] Parameter VPCCIDR not used.
+[S3: -> ] s3://taskcat-cicd/qs-workshop/screen-logs.txt
+[S3: -> ] s3://taskcat-cicd/qs-workshop/templates/master.template.yaml
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+[INFO   ] : ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+[INFO   ] : ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+[INFO   ] : ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+[INFO   ] : ┣ region: us-west-2
+[INFO   ] : ┗ status: CREATE_COMPLETE 
+[INFO   ] : Reporting on arn:aws:cloudformation:us-west-2:346928629658:stack/tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3/6dc49a30-9995-11eb-aadc-0a78ea54322b
+[INFO   ] : Deleting stack: arn:aws:cloudformation:us-west-2:346928629658:stack/tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3/6dc49a30-9995-11eb-aadc-0a78ea54322b
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-VPCStack-1GVH22JF6JGU0
+         ┣ stack Ⓝ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3-WorkloadStack-119KY6Z3ACRDK
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+Exception in thread Thread-2467:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib64/python3.7/threading.py", line 1177, in run
+    self.function(*self.args, **self.kwargs)
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/taskcat/_cfn/stack.py", line 425, in refresh
+    self.set_stack_properties()
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/taskcat/_cfn/stack.py", line 442, in set_stack_properties
+    props = describe_stacks(StackName=self.id)["Stacks"][0]
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/ec2-user/environment/vpy3/lib/python3.7/site-packages/botocore/client.py", line 676, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (ExpiredToken) when calling the DescribeStacks operation: The security token included in the request is expired
+
+         ┏ stack Ⓜ tCaT-qs-workshop-default-5a8f3dd402f64f08b10f38532af4d7d3
+[ERROR  ] : ClientError An error occurred (ExpiredToken) when calling the DescribeStacks operation: The security token included in the request is expired
