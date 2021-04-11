@@ -1,0 +1,297 @@
+Not in terminal, reprint now using normal build-in print function.
+
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: CREATE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-VPCStack-NXRSGP46D7DC
+         ┣ stack Ⓝ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c-WorkloadStack-1SWJIQR54EGES
+         ┣ region: us-west-2
+         ┗ status: DELETE_IN_PROGRESS
+         ┏ stack Ⓜ tCaT-qs-workshop-default-7f5648c6746e494784b836b68a97578c
