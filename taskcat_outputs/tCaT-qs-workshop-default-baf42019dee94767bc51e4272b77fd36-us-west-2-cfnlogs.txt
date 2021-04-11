@@ -1,0 +1,20 @@
+-----------------------------------------------------------------------------
+Region: us-west-2
+StackName: tCaT-qs-workshop-default-baf42019dee94767bc51e4272b77fd36
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [VPCStack].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                          ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------  -------------------------------------------------------
+2021-04-10 04:51:05.852000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-qs-workshop-default-baf42019dee94767bc51e4272b77fd36  The following resource(s) failed to create: [VPCStack].
+2021-04-10 04:51:05.252000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  VPCStack                                                   Bucket name must be lower case.
+2021-04-10 04:51:04.825000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2021-04-10 04:50:59.466000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-qs-workshop-default-baf42019dee94767bc51e4272b77fd36  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Saturday, 10. April 2021 04:52AM
+-----------------------------------------------------------------------------
+
