@@ -101,7 +101,7 @@ Resources:
     Properties:
       TemplateURL:
         !Sub
-          - https://${S3Bucket}.s3${S3Region}.${AWS::URLSuffix}/${QSS3KeyPrefix}/submodules/quickstart-aws-vpc/templates/aws-vpc.template
+          - https://${S3Bucket}.s3${S3Region}.${AWS::URLSuffix}/${QSS3KeyPrefix}submodules/quickstart-aws-vpc/templates/aws-vpc.template
           - S3Region: !If [NorthVirginia, '', !Sub '-${QSS3BucketRegion}']
             S3Bucket: !Ref QSS3BucketName
       Parameters:
